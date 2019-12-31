@@ -1,0 +1,20 @@
+{
+	"name": "chat_final_build",
+	"version": "1.0.0",
+	"description": "loftshool project: websocket chat",
+	"main": "index.js",
+	"dependencies": {
+		"normalize.css": "^8.0.1",
+		"save-dev": "0.0.1-security",
+		"socket.io": "^2.3.0",
+		"socketio-file-upload": "^0.7.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.2"
+	},
+	"scripts": {
+		"devStart": "nodemon server.js"
+	},
+	"author": "Yana Stepanova",
+	"license": "ISC"
+}
